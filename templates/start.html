@@ -1,9 +1,22 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} 
 
-{% block head %}
-{% endblock %}
+{% block head %} 
+{% endblock %} 
 
 {% block body %}
-<p>VHHS Hacks</p>
-<button onclick="window.location.href='{{url_for('info')}}';">Click Me</button>
+<div class="container">
+  <div class="box">
+    <div class="titleDiv">
+      <p class="title">VHHS Hacks</p>
+    </div>
+    <div class="btnDiv">
+      <button
+        class="button"
+        onclick="window.location.href='{{url_for('info')}}';"
+      >
+        Click Me
+      </button>
+    </div>
+  </div>
+</div>
 {% endblock %}

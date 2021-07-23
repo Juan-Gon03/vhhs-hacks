@@ -15,4 +15,4 @@ def moreInfo():
     return render_template('moreInfo.html')
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)

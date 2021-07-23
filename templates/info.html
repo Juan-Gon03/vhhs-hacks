@@ -1,24 +1,30 @@
 {% extends 'base.html' %} 
 
 {% block head %} 
-{% endblock %} 
 
+{% endblock %} 
 {% block body %}
-<p>
-  VHHS hacks is a club for creative coding. We range in projects from simple
-  static websites to full-fledged computer apps. If you join, not only will you
-  possibly find a new hobby but you’ll also learn about the other cool stuff
-  that comes along with programming. This includes using the right tools,
-  knowing what tools are available to you, how to special software, for example,
-  Figma (which is a tool used for UI design, and other graphic design related
-  things), knowing what text editor is right for you, and much more!!!!! We will
-  be participating in many events, some of these include, hackathons, CTF
-  competitions, Cryptic hunts, and many more. Do you need to have prior
-  experience to join? Absolutely not. You can join us with zero experience in
-  cs/ programing. We’ll teach you the basics but it’s up to you to continue
-  learning. We’re are part of an organization called Hack Club. They provide us
-  with the BEST workshops, tools for every member to get started with, and
-  overall support us in multiple ways. Email jgonzalez1604@mymail.lausd.net
-</p>
-<button onclick="window.location.href='{{url_for('moreInfo')}}';">Click 4 more info</button>
+<div class="container">
+  <div class="box">
+    <div class="infoDiv">
+      <p class="info">
+        VHHS hacks is a club for creative coding. 
+        What is creative coding? It's basically 
+        programing but with ✨pizzazz✨. This includes 
+        anything from a simple website about why kittens
+        are much cuter than puppies, to a making a program 
+        that uses A.I to identify every kitten in a photo! 
+      </p>
+    </div>
+
+    <div class="btnDiv">
+      <button
+        class="button button2"
+        onclick="window.location.href='{{url_for('moreInfo')}}';"
+      >
+        Click 4 more info
+      </button>
+    </div>
+  </div>
+</div>
 {% endblock %}
