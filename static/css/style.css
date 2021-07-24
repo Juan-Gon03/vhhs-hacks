@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Courgette&family=Roboto:wght@400;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -69,19 +68,32 @@
   font-size: 35px;
 }
 
-.infoDiv{
-    margin-bottom: 5%;
-    text-align: center;
-}
- 
-.container2{
-  width: 90%;
-  margin: 3% auto;
+.infoDiv {
+  margin-bottom: 5%;
+  text-align: center;
 }
 
-iframe{
-    border-style: solid;
-    border-color: #68aaf1;
-    border-width: 15px;
-    border-radius: 25px;
+.container2 {
+  width: 75%;
+  height: 75vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /*border: solid;*/
 }
+
+iframe {
+  border-style: solid;
+  border-color: #68aaf1;
+  border-width: 15px;
+  border-radius: 25px;
+}
+
+.emailInfo {
+  color: white;
+  font-family: "Courgette", cursive;
+  font-size: 35px;
+}
+
