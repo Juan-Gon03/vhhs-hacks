@@ -79,3 +79,31 @@ iframe {
   border-width: 15px;
   border-radius: 25px;
 }
+
+.placeimg {
+  position: absolute;
+  top: 50vh;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+
+.placeimg2 {
+  position: absolute;
+  top: 50vh;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+
+.emailInfo {
+  color: #ffffff;
+  font-size: 50px;
+  font-family: "Courgette", cursive;
+  text-align: center;
+  padding: 5%;
+}
+
+.goaround {
+  border-style: dashed solid;
+  border-width: 10px;
+  border-radius: 30px;
+}
