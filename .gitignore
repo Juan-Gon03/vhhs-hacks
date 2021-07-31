@@ -1,2 +1,7 @@
 venv/
 __pycache__/
+
+#heroku configuration
+runtime.txt
+requirements.txt
+Procfile
