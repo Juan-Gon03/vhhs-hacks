@@ -4,20 +4,15 @@
 {% endblock %} 
 
 {% block body %}
-<div class="container">
-  <div class="box">
-    <div class="titleDiv">
-      <p class="title">VHHS Hacks</p>
-    </div>
-    <div class="btnDiv">
+<div class="container vh-100 d-flex flex-column justify-content-center align-items-center">
+      <h1 class="text-center display-1 fw-bolder">Vedugo Hill High School Hack Club</h1>
+      
       <button
-        class="button"
+        class="mt-5 btn btn-info btn-lg fs-1 fw-bolder"
         onclick="window.location.href='{{url_for('info')}}';"
       >
         Click Me
       </button>
-    </div>
-  </div>
 </div>
 {% block javascript %}{% endblock %}
 {% endblock %}

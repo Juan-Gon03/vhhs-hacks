@@ -4,28 +4,22 @@
 
 {% endblock %} 
 {% block body %}
-<div class="container">
-  <div class="box">
-    <div class="infoDiv">
-      <p class="info">
-        VHHS hacks is a club for creative coding. 
-        What is creative coding? It's basically 
-        programing but with ✨pizzazz✨. This includes 
-        anything from a simple website about why kittens
-        are much cuter than puppies, to a making a program 
-        that uses A.I to identify every kitten in a photo! 
+<div class="container vh-100 d-flex flex-column justify-content-center align-items-center">
+      <p class="fs-1 text-break lh-base text-center fw-bolder">
+          VHHS hacks is a club for creative coding. 
+          What is creative coding? It's basically 
+          programing but with ✨pizzazz✨. This includes 
+          anything from a simple website about why kittens
+          are much cuter than puppies, to a making a program 
+          that uses A.I to identify every kitten in a photo!
       </p>
-    </div>
 
-    <div class="btnDiv">
-      <button
-        class="button button2"
-        onclick="window.location.href='{{url_for('moreInfo')}}';"
-      >
-        Click 4 more info
-      </button>
-    </div>
-  </div>
+        <button
+          class="mt-4 btn btn-info btn-lg fs-1 fw-bolder"
+          onclick="window.location.href='{{url_for('moreInfo')}}';"
+        >
+          Click 4 more info
+        </button>
 </div>
 {% block javascript %}{% endblock %}
 {% endblock %}
