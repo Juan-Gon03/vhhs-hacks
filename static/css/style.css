@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Courgette&family=Roboto:wght@400;900&display=swap");
-* {
+/** {
   margin: 0;
   padding: 0;
 }
@@ -15,7 +15,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /*border: solid;*/
 }
 
 .box {
@@ -43,7 +42,7 @@
 }
 
 .button {
-  background-color: #68aaf1; /* Green */
+  background-color: #68aaf1;
   border: none;
   color: #1d2936;
   font-family: "Roboto", sans-serif;
@@ -106,4 +105,50 @@ iframe {
   border-style: dashed solid;
   border-width: 10px;
   border-radius: 30px;
+}*/
+body{
+  background-color: #03bc0b;
+}
+
+.display-1{
+  font-family: "Anton", sans-serif;
+  color: #1d2936;
+}
+
+.btn-info {
+  font-family: "Roboto", sans-serif !important;
+  background-color: #68aaf1 !important;
+  border-color: #68aaf1 !important;
+  color: #1d2936 !important;
+}
+.btn-info:hover,
+.btn-info:active,
+.btn-info:visited,
+.btn-info:focus {
+  background-color: #6fb5ff !important;
+  border-color: #6fb5ff !important;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  color: #1d2936;
+}
+
+.courgette{
+  font-family: "Courgette", cursive;
+  color: white;
+}
+
+.borderWhite{
+  border-color: white !important;
+  border-style: dashed solid !important;
+  border-width: 0.625em !important;
+  border-radius: 1.875em !important;
+}
+
+.borderBlue{
+   border-color: #68aaf1 !important;
+  border-style: solid !important;
+  border-width: 15px !important;
+  border-radius: 25px !important;
 }
